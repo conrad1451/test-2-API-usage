@@ -1,4 +1,4 @@
-const BAD_API_ENDPOINT = "https://jsonplaceholder.typicode.com/postses";
+// const BAD_API_ENDPOINT = "https://jsonplaceholder.typicode.com/postses";
 const GOOD_API_ENDPOINT = "https://jsonplaceholder.typicode.com/posts";
 
 export default function secondAPICall() {
