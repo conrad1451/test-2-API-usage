@@ -1,13 +1,13 @@
 // const BAD_API_ENDPOINT = "https://jsonplaceholder.typicode.com/postses";
 const GOOD_API_ENDPOINT = "https://jsonplaceholder.typicode.com/posts";
 
-export default function secondAPICall() {
+export default function thirdAPICall() {
   const theAPIFetch = function () {
     fetch(GOOD_API_ENDPOINT)
       .then(function (response) {
         // The API call was successful!
         if (response.ok) {
-          console.log("\n\nSECOND also good");
+          console.log("THIRD is best");
           return response.json();
         } else {
           return Promise.reject(response);

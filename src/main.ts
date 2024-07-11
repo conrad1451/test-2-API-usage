@@ -6,6 +6,11 @@ import firstAPICall from "./myFirstAPICall.ts";
 firstAPICall();
 import secondAPICall from "./mySecondAPICall.ts";
 secondAPICall();
+// let placeHolderData =
+
+import secondAPICallPromise from "./mySecondAPICallPromise.ts";
+let placeHolderData = await secondAPICallPromise();
+
 // import { setupTester } from "./testMe.ts";
 
 // fetch("https://jsonplaceholder.typicode.com/posts")
@@ -18,8 +23,12 @@ secondAPICall();
 //     console.warn("Something went wrong.", err);
 //   });
 
+let broski = 5;
+
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
+
+    <p>${broski}</p>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
